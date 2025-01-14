@@ -37,7 +37,7 @@
   - 예제 데이터를 기반으로 복원 결과 생성 및 비교.
 
 ### 3. `finetuning.ipynb` & `opensource-models.ipynb`
-- 데이터 전처리, 학습 과정 포함.
+- 데이터 전처리, 추론 과정 포함.
 - 오픈소스 모델(LLaMA, EXAONE, GEMMA 등)을 특정 데이터셋에 맞게 파인튜닝한 과정 포함.
 
 ---
