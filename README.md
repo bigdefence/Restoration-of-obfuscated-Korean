@@ -9,8 +9,8 @@
 
 ### 1. **자동 텍스트 복원**
 - 난독화된 한국어 문장을 분석하여 원문으로 복원.
-- OpenAI GPT, Gemini AI 모델 및 파인튜닝된 LLaMA, EXAONE, GEMMA 모델을 사용.
-
+- ChatGPT, Gemini, LLaMA, EXAONE, GEMMA 모델을 사용.
+- 오픈소스 LLM 도메인에 최적화된 모델 파인튜닝
 ### 2. **유연한 설정**
 - 사용자 정의 문자 매핑 및 복원 패턴 적용.
 - 추가 데이터셋 통합 및 확장 가능.
@@ -37,8 +37,7 @@
   - 예제 데이터를 기반으로 복원 결과 생성 및 비교.
 
 ### 3. `finetuning.ipynb` & `opensource-models.ipynb`
-- 대형 언어 모델(LLM) 학습 및 평가를 위한 Jupyter 노트북.
-- 데이터 전처리, 학습 과정, 결과 시각화를 포함.
+- 데이터 전처리, 학습 과정 포함.
 - 오픈소스 모델(LLaMA, EXAONE, GEMMA 등)을 특정 데이터셋에 맞게 파인튜닝한 과정 포함.
 
 ---
