@@ -41,10 +41,10 @@
 ### 3. `finetuning.ipynb` & `opensource-models.ipynb`
 - 데이터 전처리, 추론 과정 포함.
 - 오픈소스 모델(LLaMA, EXAONE, GEMMA 등)을 특정 데이터셋에 맞게 파인튜닝한 과정 포함.
-- LLaMA 3.1 8B 모델로 파인튜닝 시:
- - Training Loss: 1.360500	
- - Validation Loss: 1.385290
- - 안정적으로 수렴하며 높은 복원 성능을 보임.
+- LLaMA 3.1 8B 모델로 파인튜닝:
+   - Training Loss: 1.360500
+   - Validation Loss: 1.385290
+   - 안정적으로 수렴하며 높은 복원 성능을 보임.
 ---
 
 ## 설치 방법
