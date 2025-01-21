@@ -45,7 +45,7 @@
    - Training Loss: 1.360500
    - Validation Loss: 1.385290
    - 안정적으로 수렴하며 높은 복원 성능을 보임.
-   - [HuggingFace 모델위치](https://huggingface.co/bigdefence/llama-3.1-8b-dacon)
+   - [https://huggingface.co/bigdefence/llama-3.1-8b-dacon](https://huggingface.co/bigdefence/llama-3.1-8b-dacon)
 ---
 
 ## 설치 방법
