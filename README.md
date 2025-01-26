@@ -1,6 +1,7 @@
 # 난독화된 한글 리뷰 복원 AI 경진대회 (현재 진행중)
 
-![화면 캡처 2025-01-16 080717](https://github.com/user-attachments/assets/b6203832-2223-49e1-8cf6-bdcad267d21b)
+![스크린샷 2025-01-26 112129](https://github.com/user-attachments/assets/23b6aed4-67e1-4d22-80cf-f5dc04b83a2e)
+
 
 ## 프로젝트 소개
 이 저장소는 난독화된 한국어 텍스트를 원문으로 복원하기 위한 시스템을 구현한 프로젝트입니다. ChatGPT, Gemini 그리고 오픈소스 모델인 LLaMA, EXAONE, GEMMA 등을 활용하여 왜곡된 한국어 문장을 원래 형태로 복원합니다. 또한, 오픈소스 모델들을 데이터셋에 맞게 **파인튜닝**하여 특정 도메인에 최적화된 결과를 제공합니다. 텍스트 복원은 리뷰 데이터나 자연어 처리 작업에서 품질을 높이는 데 활용될 수 있습니다.
@@ -41,11 +42,14 @@
 ### 3. `finetuning.ipynb` & `opensource-models.ipynb`
 - 데이터 전처리, 추론 과정 포함.
 - 오픈소스 모델(LLaMA, EXAONE, GEMMA 등)을 특정 데이터셋에 맞게 파인튜닝한 과정 포함.
-- LLaMA 3.1 8B 모델로 파인튜닝:
+- LLaMA 3.1 8B 파인튜닝:
    - Training Loss: 1.360500
    - Validation Loss: 1.385290
    - 안정적으로 수렴하며 높은 복원 성능을 보임.
    - [https://huggingface.co/bigdefence/llama-3.1-8b-dacon](https://huggingface.co/bigdefence/llama-3.1-8b-dacon)
+- Gemini 1.5 Flash 파인튜닝:
+   -  ![스크린샷 2025-01-26 112420](https://github.com/user-attachments/assets/58294771-8366-46e3-9a02-de0a1a3e2b33)
+
 ---
 
 ## 설치 방법
