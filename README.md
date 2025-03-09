@@ -1,4 +1,4 @@
-# 난독화된 한글 리뷰 복원 AI 경진대회 (현재 진행중)
+# 난독화된 한글 리뷰 복원 AI 경진대회 
 
 ![스크린샷 2025-01-26 112129](https://github.com/user-attachments/assets/23b6aed4-67e1-4d22-80cf-f5dc04b83a2e)
 
